@@ -8,6 +8,7 @@
   --color-background: rgb(5, 22, 31);
 
   --spacer-md: var(--kemet-spacer-md);
+  --page-max-width: 600px;
 }
 
 html {
@@ -53,6 +54,9 @@ h1 {
 }
 
 header {
+  max-width: var(--page-max-width);
+  margin: auto;
+
   div {
     display: flex;
     flex-direction: column;
@@ -67,6 +71,8 @@ header {
 }
 
 section {
+  max-width: var(--page-max-width);
+  margin: auto;
   flex: 1;
   background: var(--color-white);
 }
