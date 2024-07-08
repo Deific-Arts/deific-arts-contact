@@ -1,0 +1,83 @@
+@use 'kemet-ui/dist/styles/kemet.base.scss';
+
+:root {
+  --color-white: rgb(255, 255, 255);
+  --color-white-80: rgba(255, 255, 255, 0.80);
+  --color-primary: rgb(227, 193, 22);
+  --color-secondary: rgb(29, 118, 195);
+  --color-background: rgb(5, 22, 31);
+
+  --spacer-md: var(--kemet-spacer-md);
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  color: var(--color-white);
+  background: var(--color-background);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--color-secondary);
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 4rem;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 6vw;
+  margin-top: 1rem;
+}
+
+header {
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    max-height: 20vh;
+    border-radius: 50%;
+    border: 2px solid var(--color-white);
+  }
+}
+
+section {
+  flex: 1;
+  background: var(--color-white);
+}
+
+header,
+section {
+  padding: 2rem;
+}
+
+kemet-card {
+  width: 100%;
+  text-align: center;
+  --kemet-card-max-width: 100%;
+}

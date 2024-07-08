@@ -1,0 +1,18 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//QR-Code-Generator.com//EN
+N:Rogers;Hasani;;;
+FN:Hasani Rogers
+ORG:Deific Arts LLC;
+TITLE:Owner
+EMAIL;TYPE=PREF,INTERNET:contact@deificarts.com
+TEL;TYPE=CELL,voice:2485130545
+TEL;TYPE=WORK,voice:
+TEL;TYPE=WORK,fax:
+ADR;TYPE=WORK;type=pref:;; ;;;;
+URL:https://deificarts.com
+
+NOTE:Deific Arts, LLC is Detroit’s go to web development shop for small businesses.
+
+REV:2008-04-24T19:52:43Z
+END:VCARD
